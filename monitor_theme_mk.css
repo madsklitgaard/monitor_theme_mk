@@ -95,7 +95,7 @@ h1
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 9px;
-    color: Black;
+    color: #fff;
     padding-bottom: 6px;
     padding-top: 4px;
 }
@@ -114,6 +114,7 @@ body,td,div
     font-family: 'Roboto', sans-serif;
     font-size: 6px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 html {
