@@ -711,7 +711,7 @@ div#statistics_content th {
 }
 
 .queue_stats_warning {
-    background-color: #8e020d !important;
+    background-color: #B00020 !important;
     color: White !important;
 }
 #sortable1, #sortable2 #sortable{
@@ -762,9 +762,9 @@ span.current_employee_status {
 }
 
 .monitor_highlight {
-    border: 1px solid #2d95ef;
+    border: 1px solid #46b1ff;
     height: 5px;
-    background-color: #2d95ef;
+    background-color: #46b1ff;
 }
 
 div.monitor_queue_extended_row {
@@ -814,8 +814,8 @@ span.monitor_queue_extended_box_content {
 }
 
 span.monitor_queue_extended_box_content_warning {
-    background-color: #8e020d !important;
-    border: 2px solid #8e020d !important; 
+    background-color: #B00020 !important;
+    border: 2px solid #B00020 !important; 
 }
 
 span.monitor_queue_extended_box_content_success {
@@ -834,23 +834,23 @@ span.monitor_queue_extended_box_content_success {
 }
     /*busy*/
     .employee_container[status="1"] {
-        background-color: #8e020d;
-        border: 4px solid #8e020d;
+        background-color: #B00020;
+        border: 4px solid #B00020;
     }
      .employee_container[status="9"] {
-        background-color: #8e020d;
-        border: 4px solid #8e020d;
+        background-color: #B00020;
+        border: 4px solid #B00020;
     }
 
     /*ringing*/
     .employee_container[status="8"] {
-        background-color: #2d95ef;
-        border: 4px solid #2d95ef;
+        background-color: #46b1ff;
+        border: 4px solid #46b1ff;
     }
     /*dnd*/
     .employee_container[dnd_status="1"] {
-        background-color: #a9a9a9;
-        border: 4px solid #a9a9a9;
+        background-color: #373740;
+        border: 4px solid #373740;
     }
 
     .talk_timer { 
