@@ -747,7 +747,8 @@ span.employee_list_employee_row {
     color: white; 
     font-size: 11px; 
     font-weight: bold;
-	float: left;
+    float: left;
+    letter-spacing: 2px;
 
 }
 
