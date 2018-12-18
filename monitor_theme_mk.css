@@ -687,9 +687,15 @@ div#statistics_content th {
     div#statistics_content td {
     }
 
-.monitor_module{
-	
-	padding-bottom: 3px;
+.monitor_module{	
+    padding-bottom: 3px;
+    background: #373740;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 10px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 10px 30px 0px rgba(50, 50, 50, 0.75);
 	
 }
 
@@ -703,6 +709,7 @@ div#statistics_content th {
 
 .monitor_module_content {
     color: #3e3e3e !important;
+    background: #373740;
     font-weight: bold;
     font-size: 15px !important;
     /*display: inline-block;*/
@@ -710,6 +717,9 @@ div#statistics_content th {
     /*padding: 10px 0px 10px 0px;*/
     text-align: center;
     padding: 4px !important;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;    
 }
 
 .queue_stats_warning {
