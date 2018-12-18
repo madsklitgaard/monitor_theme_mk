@@ -7,6 +7,10 @@ to use a different color start by replacing all instances of
 
 /* /Home/Index BEGIN */
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500|Roboto:700');
+
+/* Regular CSS */
 
 div.custom_error_field
 {
@@ -29,6 +33,7 @@ div.custom_error_field
 #contentwrapper{
     float: left;
     width: 100%;
+    color: #fff;
     background: rgba(53,53,64,1);
     background: -moz-linear-gradient(top, rgba(53,53,64,1) 0%, rgba(48,48,54,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(53,53,64,1)), color-stop(100%, rgba(48,48,54,1)));
@@ -87,7 +92,7 @@ td.subText  { padding-left: 4px; height: 22px; }
 
 h1 
 {
-    font-family: Arial;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 9px;
     color: Black;
@@ -97,18 +102,18 @@ h1
 
 li h1 
 {
-    font-family: Arial;
+    font-family: 'Quicksand', sans-serif;
     font-weight: normal;
-    color: #464646;
+    color: #fff;
     font-size: 10px;
 }
 
 
 body,td,div
 {
-    font-family: Tahoma;
+    font-family: 'Roboto', sans-serif;
     font-size: 6px;
-    color: #303030
+    color: #fff;
 }
 
 html {
