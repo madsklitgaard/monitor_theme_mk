@@ -817,7 +817,11 @@ span.monitor_queue_extended_box_content {
     border-radius: 0px; 
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px;
-    background-color: #898b8d;
+    background-color: #5b6467;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
+    border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
+    border-image-slice: 1;
+    border-width: 4px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
