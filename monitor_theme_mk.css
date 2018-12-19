@@ -846,8 +846,23 @@ span.monitor_queue_extended_box_content_success {
     border-radius: 4px;    
 }
     /*busy*/
+    /* Tests ORANGE */
+    .employee_container[status="1"] {
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
+        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
+        border-image-slice: 1;
+        border-width: 4px;
 
-    /* Tests */
+    }
+     .employee_container[status="9"] {
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
+        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
+        border-image-slice: 1;
+        border-width: 4px;
+
+    }
+    
+    /* Tests RED
     .employee_container[status="1"] {
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
         border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
@@ -862,13 +877,13 @@ span.monitor_queue_extended_box_content_success {
         border-width: 4px;
 
     }
+    */
+
     /*ringing*/
     .employee_container[status="8"] {
         background-color: #06bcfb;
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(6,188,251,1) 0%, rgba(72,132,238,1) 99.5% );
         border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(6,188,251,1) 0%, rgba(72,132,238,1) 99.5% );
-        /* background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
-        border-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%); */
         border-image-slice: 1;
         border-width: 4px;
     }
@@ -878,8 +893,6 @@ span.monitor_queue_extended_box_content_success {
         background-color: #5b6467;
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
         border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
-        /* background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
-        border-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%); */
         border-image-slice: 1;
         border-width: 4px;
     }
