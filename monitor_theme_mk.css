@@ -817,9 +817,9 @@ span.monitor_queue_extended_box_content {
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px;
     background-color: #898b8d;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 span.monitor_queue_extended_box_content_warning {
