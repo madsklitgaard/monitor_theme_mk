@@ -846,20 +846,29 @@ span.monitor_queue_extended_box_content_success {
     border-radius: 4px;    
 }
     /*busy*/
+
+    /* Tests */
     .employee_container[status="1"] {
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
+        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
+        border-image-slice: 1;
+        border-width: 4px;
 
     }
      .employee_container[status="9"] {
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
+        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
+        border-image-slice: 1;
+        border-width: 4px;
 
     }
-
     /*ringing*/
     .employee_container[status="8"] {
         background-color: #06bcfb;
         background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
-        border: 4px solid #46b1ff;rgb(11, 12, 12)
+        border-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
+        border-image-slice: 1;
+        border-width: 4px;
     }
     
     /*dnd*/
