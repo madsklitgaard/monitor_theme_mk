@@ -42,7 +42,6 @@ body {
     float: left;
     width: 100%;
     color: #fff;
-
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353540', endColorstr='#303036', GradientType=0 );
 }
 
@@ -825,7 +824,7 @@ span.monitor_queue_extended_box_content {
 }
 
 span.monitor_queue_extended_box_content_warning {
-    background-color: #B00020 !important;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
     border: 2px solid #B00020 !important; 
 }
 
@@ -848,18 +847,19 @@ span.monitor_queue_extended_box_content_success {
 }
     /*busy*/
     .employee_container[status="1"] {
-        background-color: #B00020;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
         border: 4px solid #B00020;
     }
      .employee_container[status="9"] {
-        background-color: #B00020;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
         border: 4px solid #B00020;
     }
 
     /*ringing*/
     .employee_container[status="8"] {
-        background-color: #46b1ff;
-        border: 4px solid #46b1ff;
+        background-color: #06bcfb;
+        background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
+        border: 4px solid #46b1ff;rgb(11, 12, 12)
     }
     /*dnd*/
     .employee_container[dnd_status="1"] {
