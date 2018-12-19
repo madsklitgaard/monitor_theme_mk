@@ -785,9 +785,6 @@ div.monitor_queue_extended_row {
 div.monitor_queue_extended_box_container {
     width: 33% !important;    
     float: left;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
 }
 
 div.monitor_queue_extended_box {
@@ -820,7 +817,9 @@ span.monitor_queue_extended_box_content {
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px;
     background-color: #898b8d;
-    border: 2px solid #898b8d; 
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
 span.monitor_queue_extended_box_content_warning {
