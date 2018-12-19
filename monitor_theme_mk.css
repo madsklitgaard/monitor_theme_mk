@@ -825,7 +825,9 @@ span.monitor_queue_extended_box_content {
 
 span.monitor_queue_extended_box_content_warning {
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
-    border: 2px solid #B00020 !important; 
+    border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(183,18,52,1) 0%, rgba(139,14,40,1) 99.5% );
+    border-image-slice: 1;
+    border-width: 4px;
 }
 
 span.monitor_queue_extended_box_content_success {
