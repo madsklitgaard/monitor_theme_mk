@@ -876,8 +876,8 @@ span.monitor_queue_extended_box_content_success {
     /*dnd*/
     .employee_container[dnd_status="1"] {
         background-color: #5b6467;
-        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(91,100,103,1) 0%, rgba(139,147,154,1) 99.5% );
-        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(91,100,103,1) 0%, rgba(139,147,154,1) 99.5% );
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
+        border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(139,147,154,1) 0%, rgba(91,100,103,1) 99.5% );
         /* background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
         border-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%); */
         border-image-slice: 1;
