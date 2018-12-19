@@ -865,7 +865,6 @@ span.monitor_queue_extended_box_content_success {
     .employee_container[dnd_status="1"] {
         background-color: #637081;
         background-image: linear-gradient(315deg, #637081 0%, #7c98b3 74%);
-        border: 4px solid #a6a7a9;
     }
 
     .talk_timer { 
