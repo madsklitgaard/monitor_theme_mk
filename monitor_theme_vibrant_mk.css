@@ -931,5 +931,5 @@ span.monitor_queue_extended_box_content_success {
      /* Hide objects */
 
      [data-mod_id="shopstats"] {
-         display: hidden;
+         display: none !important;
      }
