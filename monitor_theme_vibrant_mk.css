@@ -926,3 +926,10 @@ span.monitor_queue_extended_box_content_success {
     font-size: 12px; 
     font-weight: bold;
      }
+
+
+     /* Hide objects */
+
+     [data-mod_id="shopstats"] {
+         display: hidden;
+     }
