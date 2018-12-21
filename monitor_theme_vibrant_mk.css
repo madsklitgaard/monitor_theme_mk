@@ -869,56 +869,14 @@ span.monitor_queue_extended_box_content_success {
     /*busy*/
     /* Tests ORANGE */
     .employee_container[status="1"] {
-        background: linear-gradient(270deg, #eb3f12, #f97c24);
-background-size: 400% 400%;
-
--webkit-animation: AnimationName 14s ease infinite;
--moz-animation: AnimationName 14s ease infinite;
-animation: AnimationName 14s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
         border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
         border-image-slice: 1;
         border-width: 4px;
 
     }
      .employee_container[status="9"] {
-        background: linear-gradient(270deg, #eb3f12, #f97c24);
-background-size: 400% 400%;
-
--webkit-animation: AnimationName 14s ease infinite;
--moz-animation: AnimationName 14s ease infinite;
-animation: AnimationName 14s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
         border-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,63,18,1) 0%, rgba(249,124,36,1) 99.5% );
         border-image-slice: 1;
         border-width: 4px;
